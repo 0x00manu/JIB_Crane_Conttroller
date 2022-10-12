@@ -5,6 +5,7 @@ JIB Crane Camera Contoller controllers the camera position and angle via joystic
 *	compiler:	cosmic c compiler
 *	language:	C
 ##	HW
+*	Microcontroller	:	STM8S
 *	Analog inputs	:	8 (however analog input channels available in stm8s003K3: 6)
 *	H-Bridge		:	to controll 12V Bi-directional motor
 *	3-D joystick	:	Controlls angle of camera.
