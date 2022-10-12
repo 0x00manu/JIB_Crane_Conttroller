@@ -1,0 +1,58 @@
+//=====================PUSH-PULL OUTPUT====================//
+2		_Bool	0x5000:1//PA3	PA_DDR = PA_DDR | (1 << 1); PA_CR1 = PA_CR1 | (1 << 1);	//2
+3		_Bool	0x5000:2//PA2	PA_DDR = PA_DDR | (1 << 2); PA_CR1 = PA_CR1 | (1 << 2);	//3
+7		_Bool	0x5000:3//PA3	PA_DDR = PA_DDR | (1 << 3); PA_CR1 = PA_CR1 | (1 << 3);	//7
+8		_Bool	0x5019:4//PF4	PF_DDR = PF_DDR | (1 << 4); PF_CR1 = PF_CR1 | (1 << 4);	//8
+9		_Bool	0x5005:7//PB7	PB_DDR = PB_DDR | (1 << 7); PB_CR1 = PB_CR1 | (1 << 7);	//9
+10	_Bool	0x5005:6//PB6	PB_DDR = PB_DDR | (1 << 6); PB_CR1 = PB_CR1 | (1 << 6);	//10
+11	_Bool	0x5005:5//PB5	PB_DDR = PB_DDR | (1 << 5); PB_CR1 = PB_CR1 | (1 << 5);	//11
+12	_Bool	0x5005:4//PB4	PB_DDR = PB_DDR | (1 << 4); PB_CR1 = PB_CR1 | (1 << 4);	//12
+13	_Bool	0x5005:3//PB3	PB_DDR = PB_DDR | (1 << 3); PB_CR1 = PB_CR1 | (1 << 3);	//13
+14	_Bool 0x5005:2//PB2	PB_DDR = PB_DDR | (1 << 2); PB_CR1 = PB_CR1 | (1 << 2);	//14
+15	_Bool 0x5005:1//PB1	PB_DDR = PB_DDR | (1 << 1); PB_CR1 = PB_CR1 | (1 << 1);	//15
+16	_Bool 0x5005:0//PB0	PB_DDR = PB_DDR | (1 << 0); PB_CR1 = PB_CR1 | (1 << 0);	//16
+17	_Bool 0x5014:5//PE5	PE_DDR = PE_DDR | (1 << 5); PE_CR1 = PE_CR1 | (1 << 5);	//17
+18	_Bool 0x500A:1//PC1	PC_DDR = PC_DDR | (1 << 1); PC_CR1 = PC_CR1 | (1 << 1);	//18
+19	_Bool 0x500A:2//PC2	PC_DDR = PC_DDR | (1 << 2); PC_CR1 = PC_CR1 | (1 << 2);	//19
+20	_Bool 0x500A:3//PC3	PC_DDR = PC_DDR | (1 << 3); PC_CR1 = PC_CR1 | (1 << 3);	//20
+21	_Bool 0x500A:4//PC4	PC_DDR = PC_DDR | (1 << 4); PC_CR1 = PC_CR1 | (1 << 4);	//21
+22	_Bool 0x500A:5//PC5	PC_DDR = PC_DDR | (1 << 5); PC_CR1 = PC_CR1 | (1 << 5);	//22
+23	_Bool 0x500A:6//PC6	PC_DDR = PC_DDR | (1 << 6); PC_CR1 = PC_CR1 | (1 << 6);	//23
+24	_Bool 0x500A:7//PC7	PC_DDR = PC_DDR | (1 << 7); PC_CR1 = PC_CR1 | (1 << 7);	//24
+25	_Bool 0x500F:0//PD0	PD_DDR = PD_DDR | (1 << 0); PD_CR1 = PD_CR1 | (1 << 0);	//25
+26	_Bool 0x500F:1//PD1	PD_DDR = PD_DDR | (1 << 1); PD_CR1 = PD_CR1 | (1 << 1);	//26
+27	_Bool 0x500F:2//PD2	PD_DDR = PD_DDR | (1 << 2); PD_CR1 = PD_CR1 | (1 << 2);	//27
+28	_Bool 0x500F:3//PD3	PD_DDR = PD_DDR | (1 << 3); PD_CR1 = PD_CR1 | (1 << 3);	//28
+29	_Bool 0x500F:4//PD4	PD_DDR = PD_DDR | (1 << 4); PD_CR1 = PD_CR1 | (1 << 4);	//29
+30	_Bool 0x500F:5//PD5	PD_DDR = PD_DDR | (1 << 5); PD_CR1 = PD_CR1 | (1 << 5);	//30
+31	_Bool 0x500F:6//PD6	PD_DDR = PD_DDR | (1 << 6); PD_CR1 = PD_CR1 | (1 << 6);	//31
+32	_Bool 0x500F:7//PD7	PD_DDR = PD_DDR | (1 << 7); PD_CR1 = PD_CR1 | (1 << 7);	//32
+//===================== NAME THE OUTPUT PIN ====================//
+_Bool	PA1	0x5000:1	//2
+_Bool	0x5000:2//PA2	//3
+_Bool	0x5000:3//PA3	PA_DDR = PA_DDR | (1 << 3); PA_CR1 = PA_CR1 | (1 << 3);	//7
+_Bool	0x5019:4//PF4	PF_DDR = PF_DDR | (1 << 4); PF_CR1 = PF_CR1 | (1 << 4);	//8
+_Bool	0x5005:7//PB7	PB_DDR = PB_DDR | (1 << 7); PB_CR1 = PB_CR1 | (1 << 7);	//9
+_Bool	0x5005:6//PB6	PB_DDR = PB_DDR | (1 << 6); PB_CR1 = PB_CR1 | (1 << 6);	//10
+_Bool	0x5005:5//PB5	PB_DDR = PB_DDR | (1 << 5); PB_CR1 = PB_CR1 | (1 << 5);	//11
+_Bool	0x5005:4//PB4	PB_DDR = PB_DDR | (1 << 4); PB_CR1 = PB_CR1 | (1 << 4);	//12
+_Bool	0x5005:3//PB3	PB_DDR = PB_DDR | (1 << 3); PB_CR1 = PB_CR1 | (1 << 3);	//13
+_Bool 0x5005:2//PB2	PB_DDR = PB_DDR | (1 << 2); PB_CR1 = PB_CR1 | (1 << 2);	//14
+_Bool 0x5005:1//PB1	PB_DDR = PB_DDR | (1 << 1); PB_CR1 = PB_CR1 | (1 << 1);	//15
+_Bool 0x5005:0//PB0	PB_DDR = PB_DDR | (1 << 0); PB_CR1 = PB_CR1 | (1 << 0);	//16
+_Bool 0x5014:5//PE5	PE_DDR = PE_DDR | (1 << 5); PE_CR1 = PE_CR1 | (1 << 5);	//17
+_Bool 0x500A:1//PC1	PC_DDR = PC_DDR | (1 << 1); PC_CR1 = PC_CR1 | (1 << 1);	//18
+_Bool 0x500A:2//PC2	PC_DDR = PC_DDR | (1 << 2); PC_CR1 = PC_CR1 | (1 << 2);	//19
+_Bool 0x500A:3//PC3	PC_DDR = PC_DDR | (1 << 3); PC_CR1 = PC_CR1 | (1 << 3);	//20
+_Bool 0x500A:4//PC4	PC_DDR = PC_DDR | (1 << 4); PC_CR1 = PC_CR1 | (1 << 4);	//21
+_Bool 0x500A:5//PC5	PC_DDR = PC_DDR | (1 << 5); PC_CR1 = PC_CR1 | (1 << 5);	//22
+_Bool 0x500A:6//PC6	PC_DDR = PC_DDR | (1 << 6); PC_CR1 = PC_CR1 | (1 << 6);	//23
+_Bool 0x500A:7//PC7	PC_DDR = PC_DDR | (1 << 7); PC_CR1 = PC_CR1 | (1 << 7);	//24
+_Bool 0x500F:0//PD0	PD_DDR = PD_DDR | (1 << 0); PD_CR1 = PD_CR1 | (1 << 0);	//25
+_Bool 0x500F:1//PD1	PD_DDR = PD_DDR | (1 << 1); PD_CR1 = PD_CR1 | (1 << 1);	//26
+_Bool 0x500F:2//PD2	PD_DDR = PD_DDR | (1 << 2); PD_CR1 = PD_CR1 | (1 << 2);	//27
+_Bool 0x500F:3//PD3	PD_DDR = PD_DDR | (1 << 3); PD_CR1 = PD_CR1 | (1 << 3);	//28
+_Bool 0x500F:4//PD4	PD_DDR = PD_DDR | (1 << 4); PD_CR1 = PD_CR1 | (1 << 4);	//29
+_Bool 0x500F:5//PD5	PD_DDR = PD_DDR | (1 << 5); PD_CR1 = PD_CR1 | (1 << 5);	//30
+_Bool 0x500F:6//PD6	PD_DDR = PD_DDR | (1 << 6); PD_CR1 = PD_CR1 | (1 << 6);	//31
+_Bool 0x500F:7//PD7	PD_DDR = PD_DDR | (1 << 7); PD_CR1 = PD_CR1 | (1 << 7);	//32

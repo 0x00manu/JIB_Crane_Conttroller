@@ -1,0 +1,301 @@
+
+Map of Debug\jibcrane.sm8 from link file Debug\jibcrane.lkf - Fri Aug 09 19:48:59 2019
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 000080a4 length    36 segment .const
+start 000080c3 end 000089ed length  2346 segment .text
+start 00004000 end 00004000 length     0 segment .eeprom
+start 00000000 end 00000011 length    17 segment .bsct, initialized
+start 000080b1 end 000080c2 length    17 segment .bsct, from
+start 00000011 end 0000001b length    10 segment .ubsct
+start 00001b:0 end 00001b:4 length     4 segment .bit, initialized
+start 000080c2 end 000080c3 length     1 segment .bit, from
+start 0000001c end 0000001c length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 00000100 length     0 segment .bss
+start 00000000 end 0000045b length  1115 segment .info.
+start 00000000 end 00000ed4 length  3796 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 000080a4 end 000080b1 length    13 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\crtsi0.sm8:
+start 000080c3 end 0000810e length    75 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 00000011 end 00000011 length     0 section .ubsct
+start 00000000 end 00000030 length    48 section .info.
+
+Debug\adc.o:
+start 0000810e end 00008347 length   569 section .text
+start 00000000 end 00000011 length    17 section .bsct
+start 00000000 end 000003a8 length   936 section .debug
+start 00000030 end 0000009c length   108 section .info.
+start 00008080 end 000080a0 length    32 section .const
+
+Debug\main.o:
+start 00008347 end 0000865a length   787 section .text
+start 000003a8 end 0000085e length  1206 section .debug
+start 0000009c end 00000109 length   109 section .info.
+start 000080a0 end 000080a4 length     4 section .const
+
+Debug\timer1_overflow.o:
+start 0000865a end 0000867c length    34 section .text
+start 0000085e end 00000978 length   282 section .debug
+start 00000109 end 00000181 length   120 section .info.
+start 00001b:0 end 00001b:1 length     1 section .bit
+
+Debug\timer2_pwm_3channels.o:
+start 0000867c end 000087cd length   337 section .text
+start 00000978 end 00000c6a length   754 section .debug
+start 00000181 end 000001fe length   125 section .info.
+start 00001b:1 end 00001b:4 length     3 section .bit
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)fdiv.o:
+start 000087cd end 00008851 length   132 section .text
+start 000001fe end 0000022d length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)fmul.o:
+start 00008851 end 00008926 length   213 section .text
+start 0000022d end 0000025c length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)ftol.o:
+start 00008926 end 00008988 length    98 section .text
+start 0000025c end 0000028b length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)itof.o:
+start 00008988 end 000089b6 length    46 section .text
+start 0000028b end 000002ba length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)lreg.o:
+start 00000011 end 00000015 length     4 section .ubsct
+start 000002ba end 000002e9 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)rtol.o:
+start 000089b6 end 000089c8 length    18 section .text
+start 000002e9 end 00000318 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)uitof.o:
+start 000089c8 end 000089ec length    36 section .text
+start 00000318 end 00000348 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)xreg.o:
+start 00000015 end 00000018 length     3 section .ubsct
+start 00000348 end 00000377 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)yreg.o:
+start 00000018 end 0000001b length     3 section .ubsct
+start 00000377 end 000003a6 length    47 section .info.
+
+Debug\stm8_interrupt_vector.o:
+start 000089ec end 000089ed length     1 section .text
+start 00000c6a end 00000ed4 length   618 section .debug
+start 000003a6 end 00000424 length   126 section .info.
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\adc.o:
+_SetupADC                   2   (2)
+f_ADC1_EOC_IRQHandler  >    6   (6)
+
+Debug\main.o:
+_InitClock                  2   (2)
+_InitGPIO                   2   (2)
+_iteration                 12   (6)
+_main                  >   30   (18)
+_rim                        2   (2)
+_sim                        2   (2)
+_startroutine               6   (6)
+_stoproutine                6   (6)
+
+Debug\stm8_interrupt_vector.o:
+f_NonHandledInterrupt  >    6   (6)
+
+Debug\timer1_overflow.o:
+_SetupTimer1                2   (2)
+f_TIM1_OVF             >    6   (6)
+
+Debug\timer2_pwm_3channels.o:
+_SetupTimer2PWM3            2   (2)
+f_TIM2_CAPCOM          >    7   (7)
+f_TIM2_UPD_OVF         >    6   (6)
+
+Stack size: 37
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > __stext: (0)
+
+   2 > _main: (18)
+   3      + _InitClock: (2)
+   4      + _InitGPIO: (2)
+   5      + _SetupADC: (2)
+   6      + _SetupTimer1: (2)
+   7      + _SetupTimer2PWM3: (2)
+   8      + _iteration: (6)
+   9      |    + _startroutine: (6)
+  10      |    + _stoproutine: (6)
+          | 
+  11      + _rim: (2)
+  12      + _sim: (2)
+       
+  13 > f_ADC1_EOC_IRQHandler: (6)
+
+  14 > f_NonHandledInterrupt: (6)
+
+  15 > f_TIM1_OVF: (6)
+
+  16 > f_TIM2_CAPCOM: (7)
+
+  17 > f_TIM2_UPD_OVF: (6)
+
+  18   _InitClock --> 3
+
+  19   _InitGPIO --> 4
+
+  20   _SetupADC --> 5
+
+  21   _SetupTimer1 --> 6
+
+  22   _SetupTimer2PWM3 --> 7
+
+  23   _iteration --> 8
+
+  24   _rim --> 11
+
+  25   _sim --> 12
+
+  26   _startroutine --> 9
+
+  27   _stoproutine --> 10
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_CC1IF                  005304:1   defined in Debug\timer2_pwm_3channels.o
+_CC2IF                  005304:2   defined in Debug\timer2_pwm_3channels.o
+_CC3IF                  005304:3   defined in Debug\timer2_pwm_3channels.o
+_GO                     00001b:0   defined in Debug\timer1_overflow.o section .bit, initialized
+                                   used in Debug\main.o
+_InitClock              0000834b   defined in Debug\main.o section .text
+_InitGPIO               0000835b   defined in Debug\main.o section .text
+_SetupADC               00008308   defined in Debug\adc.o section .text
+                                   used in Debug\main.o
+_SetupTimer1            0000865a   defined in Debug\timer1_overflow.o section .text
+                                   used in Debug\main.o
+_SetupTimer2PWM3        0000879c   defined in Debug\timer2_pwm_3channels.o section .text
+                                   used in Debug\main.o
+_UIF                    005304:0   defined in Debug\timer2_pwm_3channels.o
+__endmem                000001ff   defined in command file
+                                   *** not used ***
+__endzp                 0000001b   defined in command file section .ubsct
+                                   used in C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\crtsi0.sm8
+__idesc__               000080a4   defined in linker section .init
+                                   used in C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\crtsi0.sm8
+__memory                00000100   defined in command file section .bss
+                                   used in C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\crtsi0.sm8
+__stack                 000003ff   defined in command file
+                                   used in C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\crtsi0.sm8
+__startmem              00000100   defined in command file section .bss
+                                   *** not used ***
+__stext                 000080c3   defined in C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\crtsi0.sm8 section .text
+                                   used in Debug\stm8_interrupt_vector.o
+__vectab                00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_accx                   00000007   defined in Debug\adc.o section .bsct, initialized
+                                   used in Debug\main.o
+_accy                   00000009   defined in Debug\adc.o section .bsct, initialized
+                                   used in Debug\main.o
+_accz                   0000000b   defined in Debug\adc.o section .bsct, initialized
+                                   used in Debug\main.o
+_ainx                   00000001   defined in Debug\adc.o section .bsct, initialized
+                                   used in Debug\main.o
+_ainy                   00000003   defined in Debug\adc.o section .bsct, initialized
+                                   used in Debug\main.o
+_ainz                   00000005   defined in Debug\adc.o section .bsct, initialized
+                                   used in Debug\main.o
+_channel                00000000   defined in Debug\adc.o section .bsct, initialized
+_exit                   0000810c   defined in C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\crtsi0.sm8 section .text
+_forward                00001b:3   defined in Debug\timer2_pwm_3channels.o section .bit, initialized
+                                   used in Debug\main.o
+_iteration              0000841c   defined in Debug\main.o section .text
+_knobstart              005005:7   defined in Debug\adc.o
+_knobstop               005005:6   defined in Debug\adc.o
+_knobx                  005000:2   defined in Debug\adc.o
+_knoby                  005000:3   defined in Debug\adc.o
+_knobz                  005019:4   defined in Debug\adc.o
+_left                   00001b:1   defined in Debug\timer2_pwm_3channels.o section .bit, initialized
+                                   used in Debug\main.o
+_main                   0000849f   defined in Debug\main.o section .text
+                                   used in C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\crtsi0.sm8
+_pwmx                   00500a:1   defined in Debug\adc.o
+_pwmxx                  00500a:2   defined in Debug\adc.o
+_pwmy                   00500a:3   defined in Debug\adc.o
+_pwmyy                  00500a:4   defined in Debug\adc.o
+_pwmz                   00500a:5   defined in Debug\adc.o
+_pwmzz                  00500a:6   defined in Debug\adc.o
+_rim                    00008347   defined in Debug\main.o section .text
+_sim                    00008349   defined in Debug\main.o section .text
+_start                  0000000d   defined in Debug\adc.o section .bsct, initialized
+                                   used in Debug\main.o
+_startroutine           000083e4   defined in Debug\main.o section .text
+_stop                   0000000f   defined in Debug\adc.o section .bsct, initialized
+                                   used in Debug\main.o
+_stoproutine            000083ff   defined in Debug\main.o section .text
+_table                  00008080   defined in Debug\adc.o section .const
+_up                     00001b:2   defined in Debug\timer2_pwm_3channels.o section .bit, initialized
+                                   used in Debug\main.o
+c_fdiv                  000087cd   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)fdiv.o section .text
+                                   used in Debug\main.o
+c_fmul                  00008851   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)fmul.o section .text
+                                   used in Debug\main.o
+c_ftoi                  00008926   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)ftol.o section .text
+                                   used in Debug\main.o
+c_ftol                  0000892c   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)ftol.o section .text
+c_itof                  00008988   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)itof.o section .text
+                                   used in Debug\main.o
+c_lreg                  00000011   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)lreg.o section .ubsct
+                                   used in (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)fdiv.o
+                                           (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)fmul.o
+                                           (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)ftol.o
+                                           (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)itof.o
+                                           (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)rtol.o
+                                           (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)uitof.o
+c_okdiv                 000087dd   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)fdiv.o section .text
+                                   *** not used ***
+c_okmul                 0000885f   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)fmul.o section .text
+                                   *** not used ***
+c_rtol                  000089b6   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)rtol.o section .text
+                                   used in Debug\main.o
+c_uitof                 000089c8   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)uitof.o section .text
+                                   used in Debug\main.o
+c_x                     00000015   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)xreg.o section .ubsct
+                                   used in C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\crtsi0.sm8
+                                           (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)fdiv.o
+                                           (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)fmul.o
+c_y                     00000018   defined in (C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\libm0.sm8)yreg.o section .ubsct
+                                   used in C:\Program Files (x86)\COSMIC\CXSTM8_EVAL\lib\crtsi0.sm8
+f_ADC1_EOC_IRQHandler   0000810e   defined in Debug\adc.o section .text
+                                   used in Debug\stm8_interrupt_vector.o
+f_NonHandledInterrupt   000089ec   defined in Debug\stm8_interrupt_vector.o section .text
+f_TIM1_OVF              00008673   defined in Debug\timer1_overflow.o section .text
+                                   used in Debug\stm8_interrupt_vector.o
+f_TIM2_CAPCOM           000086d8   defined in Debug\timer2_pwm_3channels.o section .text
+                                   used in Debug\stm8_interrupt_vector.o
+f_TIM2_UPD_OVF          0000867c   defined in Debug\timer2_pwm_3channels.o section .text
+                                   used in Debug\stm8_interrupt_vector.o
